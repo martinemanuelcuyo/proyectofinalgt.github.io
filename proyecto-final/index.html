@@ -1,0 +1,224 @@
+
+  <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="estilos.css">
+      <link rel="icon" href="images.webp">
+    </head>
+    <body>
+      <!--cambia color de pantalla-->
+      <form > 
+        <select name="backgrounchanger" id="myseleccion" onchange="color()"> 
+          <option value=""> color</option>
+          <option value="brown">color2</option>
+          <option value="rgb(54, 100, 88)">color3</option>  
+        </select>
+      </form>
+      <p id="dummy"></p> 
+      <script src="colores.js"></script>
+      <!--titulo detras del curriculum-->
+      <div class="fondo">
+        <h1>curriculum🥳</h1>
+         <!--el inicio para imprimir-->
+        <div id="imp1">
+          <div>
+          <!--cv (parte superior)-->
+          <div class="medio">
+          <div class="a"> 
+            <div class="primercuadro"> 
+              <div class="info">
+                <div><h2>MIS DATOS
+                </h2></div>
+              <b>🎂años:</b> <p>08/08/1998</p><!--alcumpleaños hay que darle color-->
+              <b>&#x260Etelefono:</b><p> xxx-xxxx-xxx</p>
+              <b>&#9993email:</b>  <p>martincuyo18@gmail</p>  
+            </div>
+            <div> 
+              <img src="https://randomuser.me/api/portraits/men/44.jpg">
+            </div>       
+          </div>
+          <div class="reseña">
+            <h2>SOBRE MI</h2> <hr>
+            <p>
+              Programador con 4 años de experiencia. Me caracterizo por generar códigos para empresas de diferentes sectores. Uno de mis proyectos más importantes fue la creación del sitio web de la Revista Actualidad, esta recibe 250.000 visitas semanales. 
+            </p>
+          </div>
+        </div>
+         <!--cv(parte inferior)-->
+        <div class="segundocuadro">
+          <div class="d1"> 
+            <div ><h2>HABILIDADES</h2></div>
+            <div class="dd"><p class="texto">HTML </p>
+              <DIV class="contenedor">
+                <div class="porcentaje html"></div>
+              </DIV>
+            </div>
+            <div class="dd">
+              <p class="texto">CSS
+                <DIV class="contenedor">
+                  <div class="porcentaje css"></div>
+                </DIV>
+              </p>
+            </div>
+            <div class="dd">
+              <p class="texto">JAVASCRIPT</p> 
+                <DIV class="contenedor">
+                  <div class="porcentaje js"></div>
+                </DIV>
+              </p>
+            </div>  
+            <div class="dd">
+              <p class="texto">PYTHON </p>
+                <DIV class="contenedor">
+                  <div class="porcentaje python"></div>
+                </DIV>
+              </p>
+            </div>  
+            <div class="dd">
+              <p class="texto">PHP</p>
+                <DIV class="contenedor">
+                  <div class="porcentaje PHP"></div>
+                </DIV>
+              </p>
+            </div>  
+            <div class="dd">
+              <p class="texto">C++ </p>
+                <DIV class="contenedor">
+                  <div class="porcentaje CA"></div>
+                </DIV>
+              </p>
+            </div>  
+            <div class="dd">
+              <p class="texto">C# </p>
+                <DIV class="contenedor">
+                  <div class="porcentaje CN"></div>
+                </DIV>
+              </p>
+            </div>  
+          </div>
+            <div class="part2">
+              <h2>EDUCACION</h2>
+                <ul>
+                  <li>Grado en Ingenia en Informatica</li>
+                  <li>Universidad Autonoma de Barcelona,España</li>
+                     Septiembre de 2012-Julio de 2017
+                </ul>
+                   <hr>
+        
+              <h2>HABILIDADES PROFECIONALES</h2>
+              <ul>
+                <li>Trabajo en equipo</li>
+                <li>Dominio de lenguaje de programacion</li>
+                <li>Conocimiento en diseño web</li>
+                <li>diseño en bases de datos</li>
+              </ul>
+              <hr>
+              <h2>IDIOMAS</h2>
+              <ul>
+                <li>español</li>
+                <li>ingles</li>
+              </ul>     
+            </div>       
+        </div>
+        </div>
+
+      </div>
+      <style> 
+        .info{
+        padding: 33px;
+        }
+        .primercuadro{
+          display: flex;
+          gap: 55px;
+          width: 86%;
+        }
+        img{
+          height: 150px;
+          border-radius: 33%;
+          padding: 55px;
+        }
+        .a{
+          display: flex;
+        }
+        hr{
+          border:  solid rgba(21, 46, 36, 0.767);
+        }
+        .reseña{
+          width:90%;
+          border-radius: 33px;
+          border-left: 23px solid rgba(21, 46, 36, 0.767);
+          border-right: 23px solid rgba(21, 46, 36, 0.767);
+        }
+        .segundocuadro{
+          display: flex;
+          gap: 44px;
+        }
+        .contenedor{ 
+          width: 100%;
+          background-color:  rgba(95, 64, 207, 0.699);
+          margin: 0px 20px;
+        }
+        .porcentaje{
+          padding-top: 0.5cm;
+          padding-bottom:0.1cm;  
+        }
+        .html{
+          width: 90% ;
+          background-color: aqua  ; 
+        }
+        .css{
+          width: 95%;
+          background-color:aqua;  
+        }
+        .js{
+          width: 85%;
+          background-color:aqua;
+        }
+        .python{
+          width: 80%;
+          background-color:aqua;
+        }
+        .PHP{
+          width: 70%;
+          background-color: aqua; 
+        }
+        .CA{
+          width: 78%;
+          background-color: aqua;
+        }
+        .CN{
+          width: 80%;
+          background-color: aqua; 
+        }   
+        .texto{
+          height:23px ;
+          width: 100%;
+          text-align: center; 
+        }
+        .part2{
+          padding: 33ch;
+          padding-top: 0cm;
+          text-align: center;
+        }
+        ul{
+          text-align: left;   
+        }
+      </style>  
+      </div>
+      <button type="button" onclick="javascript:imprim1(imp1);">Imprimir</button> <!--cierre de imprimir-->
+      <!--boton de alerta-->
+      <button onclick="alert( 'si deseas imprimir el curriculum y no estan todos los graficos. ve a MAS OPCIONES DE CONFIGUTACION donde dice OPCIONES selecciona GRAFICOS EN SEGUNDO PLANO ahi tendrias mostrado los graficos.Tambien es opcional si deseas manter ENCABEZADOS Y PIES DE PAGINA (te recomiendo que arriba de opciones donde dice ESCALA selecciones a PERSONALIZADO y aumentes por lo menos 125,pero es dependiendo como a usted le guste el tamaño para imprimir' );">
+        Importante 
+      </button>
+   
+                        
+      <footer class="final">
+        <p>copyright 2023</p>
+      </footer>
+                      
+    </body>
+  </html>

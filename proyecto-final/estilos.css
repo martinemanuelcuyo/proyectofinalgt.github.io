@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(77, 56, 28);
+    display: flex;
+    flex-direction: column;
+  min-height: 100vh;
+}
+.fondo{
+    text-align: center;
+    background-color: rgb(44, 44, 90);
+    height: 5.4cm;
+
+}
+.info{
+    padding: 33px;
+}
+.medio{
+    width: 79vh;
+    margin: 0 auto;
+    background-color: rgb(192, 202, 211);
+    border-radius: 2%;
+    box-shadow: 0px 0px 55px rgb(15, 13, 13);
+}
+
+span{
+    color: aqua;
+}
+img{
+    height: 150px;
+    border-radius: 33%;
+    padding: 55px;
+}
+
+.final{
+ 
+    padding: 1em 0;
+    background-color: rgb(44, 44, 90);
+    margin-top: auto;
+
+}
+.final p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.final span{
+    text-transform: uppercase;
+    opacity: 0.4vh;
+    font-weight: 200vh;
+}
